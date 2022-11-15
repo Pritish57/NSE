@@ -6,6 +6,6 @@ url1="https://www1.nseindia.com/content/historical/DERIVATIVES/2022/OCT/fo31OCT2
 st.write(url1)
 #ls,df_ns,df_nf=req(temp_zip_file_url,df_ns,df_nf)
 r = requests.post(url1)
-#st.write(r)
+st.write(r)
 status_code=r.status_code
 st.write(status_code)
