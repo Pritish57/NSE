@@ -7,5 +7,6 @@ st.write(url1)
 #ls,df_ns,df_nf=req(temp_zip_file_url,df_ns,df_nf)
 r = requests.post(url1)
 st.write(r)
+st.write(r.content)
 status_code=r.status_code
 st.write(status_code)
